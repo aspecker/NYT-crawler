@@ -1,3 +1,23 @@
+# Notes
+
+2/23/2018:
+<br></br>
+This is a group project worked on over 2 hours during the fourth week of coding bootcamp.
+A four person team worked to complete the tasks listed after this introducttion.
+The work was divided into two main portions, roughly corresponding to front-end and back-end work. 
+Two team members were assigned to each.
+
+The completed project is hosted at: https://aspecker.github.io/nyt-crawler/
+
+# Contributors
+
+Max Cliff - back-end; github: https://github.com/maxcliff
+Daniel Mace - front-end; github: https://github.com/Daniibooii
+Adam Specker - front-end; github: https://github.com/aspecker
+Nicole Yoon - back-end; github:https://github.com/sail0rm00n
+
+
+
 # New York Times Article Search - Phase 01
 
 ## Front-End Team
