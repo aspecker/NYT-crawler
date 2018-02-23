@@ -1,10 +1,12 @@
+# New York Times Scraper - Class Project
+
 # Notes
 
 2/23/2018:
 <br></br>
 This is a group project worked on over 2 hours during the fourth week of coding bootcamp.
 A four person team worked to complete the tasks listed after this introducttion.
-The work was divided into two main portions, roughly corresponding to front-end and back-end work. 
+The work was divided into two main portions, roughly corresponding to front-end and back-end work.
 Two team members were assigned to each.
 
 The completed project is hosted at: https://aspecker.github.io/nyt-crawler/
@@ -81,4 +83,3 @@ Nicole Yoon - back-end; github:https://github.com/sail0rm00n <br></br>
 * Deploy your app to GitHub Pages!
 
 * Then slack your links to your instructors + TAs
-
