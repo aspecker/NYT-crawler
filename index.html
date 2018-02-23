@@ -13,38 +13,46 @@
 
     <div class ="jumbotron">
         <img id="newsPaperIcon" src="assets\images\newspaper-icon-close-to-sample.png">
-        <h1>New York Times Article Search</h1>
+        <h1><b>New York Times Article Search</b></h1>
     </div>
 
     <div class="container">
 
         <div class ="panel panel-default">
-            <div class="panel-heading">Search Parameters</div>
+            <div class="panel-heading">
+              <img id="newsPaperIcon2" src="assets\images\newspaper-icon-close-to-sample.png">
+            Search Parameters
+            </div>
+
                 <div class="panel-body">
                     <form>
-                        Search Term: <br>
+                        <b>Search Term:</b> <br>
                         <input id="searchTerm" type="text"><br>
-                        Number of Results Retrieved <br>
+                        <b>Number of Results Retrieved</b><br>
                         <input id="resultLength" type="text"><br>
-                        Start year(optional)<br>
+                        <b>Start year(Optional)</b><br>
                         <input id="startYear" type="text"><br>
-                        End year(optional)<br>
+                        <b>End year(Optional)</b><br>
                         <input id="endYear" type="text"><br>
                         <input type="submit" value="Submit" id="submitBtn">
                     </form>
                     <div class="bottom-panel">
                       <button id="searchButton">Search</button>
-                        <button id="clearResults">Clear Results</button>
+                      <button id="clearResults">Clear Results</button>
                     </div>
                 </div>
         </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">Top Articles</div>
-            <div class="panel-body" id="articleBox">
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+          <div class="container">
+            <img id="newsPaperIcon3" src="assets\images\newspaper-icon-close-to-sample.png">
+            <h3>Top Articles</h3>
+          </div>
+        </nav>
 
-            </div>
-        </div>
+
+
+
     </div>
 
 
