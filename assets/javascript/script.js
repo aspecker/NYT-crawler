@@ -8,8 +8,13 @@ $("#submitBtn").on("click", function(event){
     var limit = $("#resultLength").val();
     var start = $("#startYear").val();
     var end = $("#endYear").val();
-
-    // Urls for different situations
+    
+    // for edge case with no input in resultLength 
+    if(!limit){
+        limit=10;
+    }
+  
+    // Urls for different situations of date boundary input
     var url = "";
     var urlBoth = "https://api.nytimes.com/svc/search/v2/articlesearch.json?fq="
     +searchTerm+"&begin_date="+start+"0101&end_date="+end+"0101&api-key=4f3b87ebf5b24f85ab9eba9ab5f59cc1";
@@ -35,6 +40,7 @@ $("#submitBtn").on("click", function(event){
         method: 'GET',
     }).then(function(response) {
         // after promise, retreive information and append it to the article box div
+
         for (var i=0;i<limit;i++){
         var title = $("<h3>").text(response.response.docs[i].headline.main);
         var articleURL = $("<a>").attr("href", response.response.docs[i].web_url).append(title);
