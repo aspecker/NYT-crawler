@@ -2,24 +2,28 @@ body{
     background-image: url("../images/type-bg.jpg");
     background-size: cover;
 }
+
+#newsPaperIcon {
+height: 50px;
+width: 50px;
+float: left;
+}
+
 .jumbotron{
     background-color: #22325C;
     color: #f5f5f5;
     text-align: center;
+    font-size: 50px;
 }
 
-navbar {
-background-color:  #22325C;
-font: white;
+.panel-heading {
+  background-color: #2F3F4E;
+  color: #f5f5f5;
 }
 
-bottom-boxes-headers {
-  color:#2F3F4E;
-  font: white;
-}
 
-search-box-etc {
+.bottom-panel {
   background-color:#9BA3A2;
-  font: white;
+  color: #f5f5f5;
   opacity: 50%;
 }
