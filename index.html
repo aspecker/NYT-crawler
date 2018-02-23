@@ -6,55 +6,57 @@
     <title>New York Times Crawler</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets\css\style.css">
 
 </head>
 <body>
 
     <div class ="jumbotron">
-        <img id="newsPaperIcon" src="assets\images\newspaper-icon-close-to-sample.png">
-        <h1><b>New York Times Article Search</b></h1>
+        <h1><b>The <u> New York Times</u> Scraper</b></h1>
     </div>
 
     <div class="container">
 
-        <div class ="panel panel-default">
-            <div class="panel-heading">
-              <img id="newsPaperIcon2" src="assets\images\newspaper-icon-close-to-sample.png">
-            Search Parameters
+        <div class="row">
+
+            <!-- Icon Column -->
+            <div class="col-md-4">
+                <img src="./assets/images/news-icon.png" alt="newspaper"id="newsIcon" class="img-responsive">
             </div>
 
-                <div class="panel-body">
-                    <form>
-                        <b>Search Term:</b> <br>
-                        <input id="searchTerm" type="text"><br>
-                        <b>Number of Results Retrieved</b><br>
-                        <input id="resultLength" type="text"><br>
-                        <b>Start year(Optional)</b><br>
-                        <input id="startYear" type="text"><br>
-                        <b>End year(Optional)</b><br>
-                        <input id="endYear" type="text"><br>
-                        <input type="submit" value="Submit" id="submitBtn">
-                    </form>
-                    <div class="bottom-panel">
-                      <button id="searchButton">Search</button>
-                      <button id="clearResults">Clear Results</button>
+            <!-- Search Panel -->
+            <div class="col-md-8">    
+                <div class ="panel panel-default search-panel">
+                    <div class="panel-heading"><h4>Search Parameters</h4></div>
+           
+                    <div class="panel-body">
+                        <form>
+                            <b class="formLabel">Search Term</b> <br>
+                            <input id="searchTerm" type="text"><br>
+                            <b class="formLabel">Number of Results Retrieved (maximum: 10)</b><br>
+                            <input id="resultLength" type="text"><br>
+                            <b class="formLabel">Start year (Optional)</b><br>
+                            <input id="startYear" type="text"><br>
+                            <b class="formLabel">End year (Optional)</b><br>
+                            <input id="endYear" type="text"><br>
+                            <input type="submit" value="Submit" id="submitBtn">
+                        </form>
                     </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- Results Panel -->
+        <div class="panel panel-default">
+                <div class="panel-heading"><h4>Top Articles</h4></div>
+                <div class = "panel-body">
+                    <div id="articleBox">Search to find articles!</div>
                 </div>
         </div>
 
-        <nav class="navbar navbar-default navbar-fixed-bottom">
-          <div class="container">
-            <img id="newsPaperIcon3" src="assets\images\newspaper-icon-close-to-sample.png">
-            <h3>Top Articles</h3>
-          </div>
-        </nav>
-
-
-
-
     </div>
-
 
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
     <script src="./assets/javascript/script.js"></script>
