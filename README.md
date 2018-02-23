@@ -11,10 +11,10 @@ The completed project is hosted at: https://aspecker.github.io/nyt-crawler/
 
 # Contributors
 
-Max Cliff - back-end; github: https://github.com/maxcliff
-Daniel Mace - front-end; github: https://github.com/Daniibooii
-Adam Specker - front-end; github: https://github.com/aspecker
-Nicole Yoon - back-end; github:https://github.com/sail0rm00n
+Max Cliff - back-end; github: https://github.com/maxcliff <br></br>
+Daniel Mace - front-end; github: https://github.com/Daniibooii <br></br>
+Adam Specker - front-end; github: https://github.com/aspecker <br></br>
+Nicole Yoon - back-end; github:https://github.com/sail0rm00n <br></br>
 
 
 
