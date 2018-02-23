@@ -7,3 +7,19 @@ body{
     color: #f5f5f5;
     text-align: center;
 }
+
+navbar {
+background-color:  #22325C;
+font: white;
+}
+
+bottom-boxes-headers {
+  color:#2F3F4E;
+  font: white;
+}
+
+search-box-etc {
+  background-color:#9BA3A2;
+  font: white;
+  opacity: 50%;
+}
