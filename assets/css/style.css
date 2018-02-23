@@ -1,15 +1,9 @@
-navbar {
-background-color: #22325C;
-font: white;
-
+body{
+    background-image: url("../images/type-bg.jpg");
+    background-size: cover;
 }
-
-boxes {
-color: #2F3F4E;
-}
-
-bottombuttons {
-color: #9BA3A2;
-font: white;
-opacity: 50%;
+.jumbotron{
+    background-color: #22325C;
+    color: #f5f5f5;
+    text-align: center;
 }
