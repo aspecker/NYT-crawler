@@ -1,4 +1,12 @@
-# New York Times Article Search - Phase 01
+# New York Times Scraper - Class Project
+## by Adam Specker for GWU Coding Bootcamp Spring 2018
+
+## Notes
+* final addition of conditional to load pages if result length is left blank
+* conditional to allow for input in one, both, or neither of the boundary dates
+    * I think this could be streamlined some to avoid having duplicate URLs
+
+## Assignment Instructions
 
 ## Front-End Team
 
@@ -61,4 +69,3 @@
 * Deploy your app to GitHub Pages!
 
 * Then slack your links to your instructors + TAs
-
